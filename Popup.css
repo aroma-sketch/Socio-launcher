@@ -1,0 +1,106 @@
+
+    body{
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+      font-size: 14px;
+         background-color:wheat; 
+         /* background-color: #272424;  */
+      margin: 0;
+      /* background: url(./k.jpg); */
+      padding: 0;
+      width: fit-content;
+      min-height: 180px;
+  }
+  h1{
+      font-size: 22px;
+      font-weight: 400;
+      color:black;
+      font-family: cursive;
+      margin: 0;
+  }
+  a:link,a:visited{
+      color: teal;
+      outline: 0;
+      text-decoration: none;
+  }
+  img {
+      width: 30px;
+  }
+  .modal-header{
+      align-items: center;
+      border-bottom: .5px solid rgb(223, 197, 223);
+  }
+  .modal-content{
+      padding: 0 22px;
+      color:black;
+  }
+  .modal-icons{
+      border-top: .5px solid rgb(211, 189, 211);
+      height: 50px;
+      width: 100%;
+  }
+  .flex-container{
+      display: flex;
+      padding: 15px 22px;
+  }
+  .flex {
+      opacity: 1;
+      transition: opacity .2s ease-in-out;
+      width: auto;
+     
+  }
+  /* Style all font awesome icons */
+  .bi {
+padding: 5px;
+font-size: 30px;
+width: 20px;
+text-align: center;
+text-decoration: none;
+border-radius: 50%;
+
+}
+
+/* Add a hover effect if you want */
+.bi:hover {
+opacity: 0.5;
+}
+
+/* Set a specific color for each brand */
+
+.bi-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.bi-twitter {
+  background: #55ACEE;
+  color: white;
+}
+.bi-linkedin {
+  background: #007bb5;
+  color: white;
+}
+.bi-instagram {
+  background:hotpink;
+  color: white;
+}
+
+.bi-youtube {
+  background: rgb(194, 25, 25);
+  color: white;
+}
+.bi-github{
+  background:black;
+  color: white;
+}
+.bi-globe{
+  background: darkgray;
+  color:rgb(36, 116, 119);
+}
+.bi-envelope{
+  background: whitesmoke;
+  color:red;
+}
+.bi-discord{
+  background:rgb(127, 47, 192);
+  color:white;
+}
