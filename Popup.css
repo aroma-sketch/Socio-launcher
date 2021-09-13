@@ -2,7 +2,7 @@
     body{
       font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
       font-size: 14px;
-         background-color:wheat; 
+         background: linear-gradient(to right, #ffb366,#ff8c66,	#ff6666,	#d966ff);
          /* background-color: #272424;  */
       margin: 0;
       /* background: url(./k.jpg); */
