@@ -32,6 +32,7 @@
   .modal-content{
       padding: 0 22px;
       color:black;
+      font-family: cursive;
   }
   .modal-icons{
       border-top: .5px solid rgb(211, 189, 211);
@@ -103,4 +104,18 @@ opacity: 0.5;
 .bi-discord{
   background:rgb(127, 47, 192);
   color:white;
+}
+
+.span{
+  font-size: 2em;
+  background: linear-gradient( 145deg
+,  #3B5998,#f81f01,#f32170,#3B5998,#000);
+     /* background: linear-gradient(to right,
+      #f32170,#ffeb07 ,#2196f3); */
+     -webkit-text-fill-color: transparent;
+     -webkit-background-clip: text;
+     font-family: 'Allison', cursive;
+     padding: 0px 10px;    
+     float:right;
+     padding-top: 2px;
 }
